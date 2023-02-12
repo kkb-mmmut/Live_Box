@@ -2,11 +2,11 @@
   
   ### A Live Box is a online chat based application used to connects everyone on a single platform.
   
-  
+ ![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/Live_Box/main/Screenshots%20livebox/livebox.png)
 
 ## Deployments
 
-    # https://kkb-mmmut.github.io/Live_Box/
+     https://kkb-mmmut.github.io/Live_Box/
 
 ## Created Using
     React Js
@@ -20,11 +20,11 @@
      login, signup, create new chat, search users, live user interaction, send images etc. 
 
 ## Basic Features.
-    1-We can create the user by using signup page.
-    2-Fully working functionalty for liking post, comment on the post and able to see the users profile
-    3-Fully working settings to change the user profile section like change the name and password.
-    4-Amazing user interface and awsome public interface . 
-    5-Able to add friends and delete friends.
+    1-Login page by using firebase/auth.
+    2-We can create the user by using signup page.
+    3-Fully working functionalty for search users and chats.
+    4-Can send the messages,images or any file.
+    5-Amazing user interface and awsome public interface .  
 
 #  Fetching Posts
     ## In this section, we followed the following steps:
@@ -54,62 +54,45 @@
         function. So, if it is present it is first converted into a string and then
         passed through the fetch function.
         
-        8 - The response received is then converted into JSON format by using
-        json() method.
+        8 - The response received from the firebase. 
         
-        9 - If it is a success then data in JSON format is returned otherwise an error
-        is returned.
-        
-        10 - For styling, we used CSS modules in which class names are scoped
+        9 - For styling, we used CSS modules in which class names are scoped
         locally for avoiding naming conflicts.
         
-# Jwt Token: 
-  
-    JSON Web Token is a proposed Internet standard for creating
-    data with optional signature and/or optional paid encryption that keeps JSON
-    validating a certain number of claims. Tokens are signed using a private
-    secret or public/private key.
-    
-    ### The scenarios when we can use jwt token:
-    
+# Firebase Authorization:  
     ## Authorization: 
-    This is the most important scenario where jwt token is
-    used. It helps to persist the user and once the user is logged in, the jwt
+    This is the most important scenario where firebase/auth is
+    used. It helps to persist the user and once the user is logged in, the onAuthStateChanged
     request will include all the resources, accesses that are permitted to
     the user.
-    
-    ## Information Exchange: 
-    Jwt tokens is a good way to exchange
-    information between two parties. It also helps us to check whether the
-    content tampered with during transmission or not.
-    The JWT access token is only valid for a finite period of time. Using an
-    expired JWT will cause operations to fail. This value is normally 1200 seconds
-    or 20 minutes.
-    
-    ## Jwt decode: 
-    This is a small browser library that helps to decode jwt token
-    which is encoded.
-    
-    ## Command to install: `npm install jwt-decode`
+     
 
 ## Screenshots
 # Public Interface
-![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/messageMe/main/Project-files/screenshots/public_interface.png)
+![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/Live_Box/main/Screenshots%20livebox/from_anotherside_client.png)
 
 # User Interface 
-![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/messageMe/main/Project-files/screenshots/user_profile.png)
+![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/Live_Box/main/Screenshots%20livebox/client_one.png)
 
 # Login Page 
-![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/messageMe/main/Project-files/screenshots/login_page.png)
+![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/Live_Box/main/Screenshots%20livebox/login_page.png)
 
 # Signup Page 
-![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/messageMe/main/Project-files/screenshots/signup_page.png)
+![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/Live_Box/main/Screenshots%20livebox/register_page.png)
 
-# Edit profile edit section
-![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/messageMe/main/Project-files/screenshots/edit_profile_section.png)
+# Search Results
+![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/Live_Box/main/Screenshots%20livebox/Search-Results.png)
 
-# User Profile
-![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/messageMe/main/Project-files/screenshots/user_settings.png)
+# New User Login Profile 
+![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/Live_Box/main/Screenshots%20livebox/new_login.png)
  
+# Overall Results
+![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/Live_Box/main/Screenshots%20livebox/overall_results.png) 
 
-## Overall Design 
+# How to Run the project on local server.
+  1 - Forked the github repository and run the project on their on deploying it.
+  2 - Download the project on you local computer and unzip the file.
+  3 - Then download all the dependencies by using "npm install".
+  4 - Start the project by using "npm start".
+
+## Happy Hacking !!
