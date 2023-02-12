@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Live_Box/static/css/main.edccf84c.css",
-    "main.js": "/Live_Box/static/js/main.265aabdc.js",
+    "main.js": "/Live_Box/static/js/main.78a84a47.js",
     "static/media/livebox.png": "/Live_Box/static/media/livebox.4b7bf2bbc37b09a8c36c.png",
     "index.html": "/Live_Box/index.html",
     "main.edccf84c.css.map": "/Live_Box/static/css/main.edccf84c.css.map",
-    "main.265aabdc.js.map": "/Live_Box/static/js/main.265aabdc.js.map"
+    "main.78a84a47.js.map": "/Live_Box/static/js/main.78a84a47.js.map"
   },
   "entrypoints": [
     "static/css/main.edccf84c.css",
-    "static/js/main.265aabdc.js"
+    "static/js/main.78a84a47.js"
   ]
 }
