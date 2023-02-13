@@ -24,8 +24,9 @@
     2-We can create the user by using signup page.
     3-Fully working functionalty for search users and chats.
     4-Can send the messages,images or any file.
-    5-Amazing user interface and awsome public interface .  
-
+    5-Amazing user interface and awsome public interface . 
+    6-Handle errors and success alerts and show appropriate Alert/Notification.
+    
 #  Fetching Posts
     ## In this section, we followed the following steps:
     
