@@ -2,8 +2,11 @@
   
   ### A Live Box is a online chat based application used to connects everyone on a single platform.
   
- ![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/Live_Box/main/Screenshots%20livebox/livebox.png)
-
+ ![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/Live_Box/main/Screenshots%20livebox/livebox.png) 
+ 
+ ## UserInterface with Selected User (fixed)
+   ![home-page-light](https://raw.githubusercontent.com/kkb-mmmut/Live_Box/main/Screenshots%20livebox/selected_public_interface.png)
+   
 ## Deployments
 
      https://kkb-mmmut.github.io/Live_Box/
